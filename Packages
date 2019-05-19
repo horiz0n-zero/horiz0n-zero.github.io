@@ -5,8 +5,8 @@ Maintainer: Antoine feuerstein <antoinefeufeu@gmail.com>
 Depends: firmware(>= 10.0)
 Architecture: iphoneos-arm
 Filename: horiz0n-zero.github.io/sources//com.horiz0n-zero.ioscan_0.0.2_iphoneos-arm.deb
-Size: 31656
-MD5sum: 6dccf36719d7c09e7829a4e296d53174
+Size: 31700
+MD5sum: 0b3cee4481b1c76949f529160047a838
 Description: A gpu accelerated process memory scanner
 Name: IOScan
 Author: Antoine Feuerstein <antoinefeufeu@gmail.com>
