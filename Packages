@@ -1,0 +1,13 @@
+Package: com.z-zero.ioscan
+Version: 0.0.1-1
+Section: System
+Maintainer: z-zero
+Architecture: iphoneos-arm
+Filename: horiz0n-zero.github.io/sources//ioscan.deb
+Size: 31432
+MD5sum: 5ef9a8eedeb2229f23a73f4c1baf0879
+Description: a gpu accelerated memory scanner
+Name: IOScan
+Author: antoine feuerstein
+Homepage: Your Website
+

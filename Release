@@ -1,0 +1,8 @@
+Origin: horiz0n-zero's repo
+Label: horiz0n-zero
+Suite: stable
+Version: 1.0
+Codename: horiz0n-zero
+Architectures: iphoneos-arm
+Components: main
+Description: horiz0n-zero's Cydia Repository
