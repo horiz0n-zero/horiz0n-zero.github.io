@@ -1,26 +1,41 @@
-div.head {
-	box-shadow: 0 0 5px black;
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.body {
 	background-color: white;
-	opacity: 0.5;
 }
 
-div.tweak {
-	box-shadow: 0 0 4px black;
-	background-color: grey;
-	opacity: 0.7;
+div.line {
+	background: linear-gradient(90deg, rgba(255,217,23,1) 0%, rgba(255,162,0,1) 100%);
+	width: 100%;
+	height: 10px;
+}
+div.line-thin {
+	background: linear-gradient(90deg, rgba(255,217,23,1) 0%, rgba(255,162,0,1) 100%);
+	width: 100%;
+	height: 2px;
 }
 
-h2 {
-	margin-left: 2%;
+@font-face {
+	font-family: sf;
+	src:
+	url("./web/SF-Light.otf") format("opentype")
+	url("./web/SF-Bold.otf") format("opentype")
+	url("./web/SF-Regular.otf") format("opentype");
 }
 
-html {
-	height: 100%;
+img.logo {
+	width: 125px;
+	height: 125px;
+	display: inline;
 }
 
-body.main {
-	height: 100%;
-	background-image: linear-gradient(to top left, rgb(0, 176, 255), rgb(255, 0, 157));
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+h2.head {
+	text-align: center;
+	display: inline;
+	margin: 20px;
+	font-family: sf;
+	font-weight: bold;
 }
