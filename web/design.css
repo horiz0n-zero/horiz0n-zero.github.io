@@ -18,13 +18,33 @@ div.line-thin {
 	height: 2px;
 }
 
+div.footer {
+	background: linear-gradient(90deg, rgba(255,217,23,1) 0%, rgba(255,162,0,1) 100%);
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	bottom: 0px;
+}
+div.footer h3 {
+	font-family: sf-light;
+	position: absolute;
+	right: 16px;
+	bottom: 8px;
+	color: white;
+}
+
 @font-face {
 	font-family: sf;
-	src:
-	url("./web/SF-Light.otf") format("opentype")
-	url("./web/SF-Bold.otf") format("opentype")
-	url("./web/SF-Regular.otf") format("opentype");
+	src: url("https://github.com/horiz0n-zero/horiz0n-zero.github.io/raw/master/web/SF-Regular.otf") format("opentype");
 }
+@font-face {
+	font-family: sf-light;
+	src: url("https://github.com/horiz0n-zero/horiz0n-zero.github.io/raw/master/web/SF-Light.otf") format("opentype");
+}
+/*@font-face {
+	font-family: sf-bold;
+	src: url("https://github.com/horiz0n-zero/horiz0n-zero.github.io/raw/master/web/SF-Bold.otf") format("opentype")
+}*/
 
 img.logo {
 	width: 125px;
@@ -32,10 +52,84 @@ img.logo {
 	display: inline;
 }
 
+.head {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: space-around;
+}
 h2.head {
+	transition-timing-function: ease-out;
+	transition-duration: 0.3s;
 	text-align: center;
 	display: inline;
 	margin: 20px;
+	font-family: sf-light;
+	background-color: white;
+	border-style: solid;
+	border-color: rgba(255,162,0,1);
+	border-width: 2px;
+	border-radius: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 32px;
+}
+h2.head:hover {
+	transition-timing-function: ease-out;
+	transition-duration: 0.3s;
+	background-color: rgba(255,162,0,1);
+	color: white;
+	box-shadow: 0px 0px 6px 1px rgba(255,217,23,1);
+}
+
+.head-title {
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-family: sf-light;
+	font-size: 36px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.head-title:hover {
+	transition-timing-function: ease-out;
+	transition-duration: 0.3s;
+	background: linear-gradient(90deg, rgba(255,217,23,1) 0%, rgba(255,162,0,1) 100%);
+}
+
+.main-tweak-collection {
+	width: 100%;
+	align: center;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.main-tweak {
+	width: 15%;
+	margin: 20px;
+	background: white;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 8px;
+	border-style: solid;
+	flex-direction: row;
+}
+.main-tweak img {
+	width: 100%;
+	overflow: hidden;
+}
+.main-tweak-container {
+	padding: 4px 16px;
+	background-color: black;
+}
+.main-tweak-container-title {
+	color: white;
 	font-family: sf;
-	font-weight: bold;
+	font-size: 20px;
+}
+.main-tweak-container-text {
+	text-color: white;
 }
